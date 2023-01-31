@@ -15,7 +15,7 @@ const CreatePost = () => {
     e.preventDefault()
     if(form.prompt.length > 0 && form.image){
       setLoading(true)
-      fetch('http://localhost:3000/api/v1/posts', {
+      fetch('https://dalle-me01.onrender.com/api/v1/posts', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
