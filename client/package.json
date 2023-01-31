@@ -1,7 +1,9 @@
 {
-  "name": "client",
+  "name": "dalle-react",
+  "homepage": "https://artifakeness.com",
+  "version": "1.0.0",
+  "description": "OpenAI image generation with DALL-E",
   "private": true,
-  "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
