@@ -94,7 +94,7 @@ const Home = () => {
               {searchText && <h2 className='text-gray-500 text-[16px] font-medium mb-4'>
                 Showing results for: <span className='text-black'>{searchText}</span>
                 </h2>}
-              <div className='grid lg:grid-cols-4 xs:grid-cols-2 sm:grid-cols-3 grid-cols-1 gap-3'>
+              <div className='grid lg:grid-cols-4 xs:grid-cols-2 sm:grid-cols-3 grid-cols-1 gap-4'>
                   {searchText ? <RenderCards data={searchedResults} title='No Search Results Found' /> : <RenderCards data={posts} title='no Posts Found' />}
               </div>
             </div> 
