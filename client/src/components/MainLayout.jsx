@@ -2,7 +2,8 @@ import React from 'react'
 import { Routes, Link, Route} from 'react-router-dom'
 import {Home, CreatePost} from '../pages'
 import {logo} from '../assets'
-import { RiSlideshow2Line } from 'react-icons/Ri';
+// import { MdAddAPhoto } from 'react-icons/Md';
+// import { RiSlideshow2Line } from 'react-icons/Ri';
 
 const MainLayout = () => {
   return (
@@ -15,7 +16,7 @@ const MainLayout = () => {
             <div className='sm:mx-4'>
             <Link type="button" to="/" className=' hover:scale-110 transition duration-150 ease-in-out sm:w-xs w-md hover:shadow-lg font-inter font-medium bg-blue-500 text-white px-4 py-2 mr-2 rounded-md hover:bg-blue-600' >
                     <div className='flex flex-row items-center jus'>
-                    <div className='pr-3'><RiSlideshow2Line /> </div>
+                    {/* <div className='pr-3'><RiSlideshow2Line /> </div> */}
                     Showcase
                 </div>
             </Link>
