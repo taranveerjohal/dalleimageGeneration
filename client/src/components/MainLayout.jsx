@@ -4,6 +4,7 @@ import {Home, CreatePost} from '../pages'
 import {logo} from '../assets'
 import { MdAddAPhoto } from 'react-icons/Md';
 import { RiSlideshow2Line } from 'react-icons/Ri';
+
 const MainLayout = () => {
   return (
     <div >
