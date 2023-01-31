@@ -10,7 +10,7 @@ const MainLayout = () => {
         <header className='w-full flex justify-between items-center bg-slate-300 sm:px-8 px-4 py-2 border-b border-b-[#e6ebf4]' >
             <Link to='/'>
                 <img src={logo} className='w-28 object-contain' />
-                Assosciated with<span className='font-bold'> Taran Johal </span>
+                By<span className='font-bold'> TJ </span>
             </Link>
             <div className='sm:mx-4'>
             <Link type="button" to="/" className=' hover:scale-110 transition duration-150 ease-in-out sm:w-xs w-md hover:shadow-lg font-inter font-medium bg-blue-500 text-white px-4 py-2 mr-2 rounded-md hover:bg-blue-600' >
