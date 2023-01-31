@@ -2,7 +2,6 @@ import React from 'react'
 import { Routes, Link, Route} from 'react-router-dom'
 import {Home, CreatePost} from '../pages'
 import {logo} from '../assets'
-import { MdAddAPhoto } from 'react-icons/Md';
 import { RiSlideshow2Line } from 'react-icons/Ri';
 
 const MainLayout = () => {
@@ -22,7 +21,7 @@ const MainLayout = () => {
             </Link>
             <Link type="button" to="/create-post" className='hover:scale-110 transition sm:w-xs w-md xs:mt-2 sm:mt-1  duration-150 ease-in-out hover:shadow-lgfont-inter font-medium bg-purple-500 hover:bg-purple-600 text-white px-4 py-2 mr-9 rounded-md' >
                 <div className='flex flex-row items-center justify-evenly'>
-                    <div className='pr-3'><MdAddAPhoto /> </div>
+                    {/* <div className='pr-3'><MdAddAPhoto /> </div> */}
                     Create Images
                 </div>
             </Link>
