@@ -59,7 +59,7 @@ const CreatePost = () => {
   const generateImage = () => {
     if(form.prompt.length > 0 && form.name.length > 0){
       setGeneratingImage(true)
-      fetch('http://localhost:3000/api/v1/dalles', {
+      fetch('https://dalle-me01.onrender.com/api/v1/dalles', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
