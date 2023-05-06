@@ -21,8 +21,6 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-"added new aomasdasdasdasd"asdasd
-
 const startServer = async () => {
   try {
     ConnectDB(process.env.MONGO_URL)
